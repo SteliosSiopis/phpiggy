@@ -10,7 +10,7 @@ function dd(mixed $value)
   die();
 }
 
-function e($value): string
+function e(mixed $value): string
 {
   return htmlspecialchars((string) $value);
 }

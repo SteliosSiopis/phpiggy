@@ -52,7 +52,7 @@ class Router
 
       foreach ($this->middlewares as $middleware) {
         $middlewareInstance = $container ?
-          $container->resolve($middlieware) :
+          $container->resolve($middleware) :
           new $middleware;
         $action = fn () => $middlewareInstance->process($action);
       }

@@ -9,5 +9,5 @@ use App\Middleware\TemplateDataMiddleware;
 
 function registerMiddleware(App $app)
 {
-    $app->addMiddleware(TemplteDataMiddleware::class);
+  $app->addMiddleware(TemplateDataMiddleware::class);
 }

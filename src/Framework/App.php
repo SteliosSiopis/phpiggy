@@ -9,7 +9,6 @@ class App
   private Router $router;
   private Container $container;
 
-
   public function __construct(string $containerDefinitionsPath = null)
   {
     $this->router = new Router();
